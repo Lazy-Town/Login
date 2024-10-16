@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body{
+    font-family: Montserrat, sans-serif;
+    background: url("../_imagens/fundo-galaxia.jpg") no-repeat;
+    background-size: cover;
+}
+
+div#envoltorio{
+    margin: 60px 415px 200px  ;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../_imagens/fundo-galaxia.jpg");
+    height: 475px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    box-shadow: 0 0 15px #ffffff;
+}
+
+margin-box {
+    width: 600px;
+    height: 50px;
+}
+
+div.caixa-entrada {
+    width: 300px;
+    height: 35px;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid #ffffff80;
+    display: flex;
+    backdrop-filter: blur(15px);
+    transition: all .3s ease-in;
+}
+
+div.caixa-entrada:hover {
+    transform: scale(1.1);
+}
+
+form {
+    width: 100%;
+}
+
+h2 {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin: 24px 0;
+    text-shadow: 0 0 15px #fff;
+}
+
+legend {
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    margin: 0px 25px 0px 150px;
+    text-shadow: 0 0 15px #fff;
+}
+
+.caixa-entrada {
+    width: 100px;
+    margin: 45px 0px 0px 65px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    transition: .5s;
+}
+
+.caixa-entrada label {
+    color: #fff;
+    position: absolute;
+    margin: -20px 0px 0px 15px;
+    font-size: 18px;
+    transition: .5s;
+    transition: background-color 1s;
+}
+
+.caixa-entrada input {
+    width: 98%;
+    height: 29px;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-decoration: #fff;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffffc9;
+}
+
+span.icone {
+    position: absolute;
+    right: 8px;
+    top: 25%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+div.lembrar-cadastro {
+    position: relative;
+    top: 10px;
+    left: 160px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+button#botao {
+    position: relative;
+    top: 20px;
+    left: 167px;
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+button#botao:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #fff, inset 0 0 15px #fff;
+    text-shadow: 0 0 15px #fff;
+}
+
+footer#rodape {
+    position: relative;
+    top: 30px;
+    left: 90px;
+}
+
+a.links {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.links:hover {
+    text-decoration: underline;
+}
