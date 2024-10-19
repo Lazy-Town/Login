@@ -145,3 +145,35 @@ a.links {
 a.links:hover {
     text-decoration: underline;
 }
+
+/* Media Queries para dispositivos menores */
+@media (max-width: 768px) {
+    div#envoltorio {
+        margin: 20px; /* Ajusta as margens em telas menores */
+        height: auto; /* Ajusta a altura automaticamente */
+    }
+
+    h2 {
+        font-size: 28px; /* Reduz o tamanho da fonte do título */
+    }
+
+    button#botao {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    div#envoltorio {
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button#botao {
+        width: 100px;
+        height: 35px;
+    }
+}
